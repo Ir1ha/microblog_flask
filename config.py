@@ -7,7 +7,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
     POSTGRES = {
         'user': 'postgres',
-        'pw': '',
+        'pw': '12345',
         'db': 'my_database',
         'host': 'localhost',
         'port': '5432',
